@@ -1,0 +1,63 @@
+.cashback-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5ab55e;
+    padding: 4px 7px;
+}
+
+.date-text {
+    font: 500 10px/14px 'Roboto';
+    letter-spacing: -0.025em;
+    color: #ffffff;
+    margin: 0;
+}
+
+.date-text span {
+    font: 400 10px/14px 'Roboto';
+    letter-spacing: -0.025em;
+    color: #ffffff;
+}
+
+.cashback {
+    display: flex;
+    align-items: flex-start;
+}
+
+.cashback-left {
+    font: 500 10px/100% 'Roboto' ;
+    text-transform: uppercase;
+    letter-spacing: -0.025em;
+    color: #404655;
+    background-color: #ffffff;
+    box-shadow: 0 0 4px 0 rgba(16,16,16,0.05);
+    padding: 6px 16px;
+}
+
+.cashback-left p {
+    margin: 0;
+}
+
+.cashback-right__number {
+    display: flex;
+    align-items: center;
+    padding: 4px 16px;
+    background: #f3f3f3;
+}
+
+.cashback-right__number span {
+    font: 700 12px/14px 'Roboto';
+    letter-spacing: -0.025em;
+    color: #404655;
+    margin-right: 5px;
+}
+
+.cashback-right {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+

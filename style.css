@@ -1,0 +1,212 @@
+table.sale_order_full
+{
+	width:100%;
+	background-color:#F9FAFB;
+	border-collapse:collapse;
+}
+
+/*Table head*/
+table.sale_order_full th
+{
+	/*background-image:url(images/table_head.gif);
+	background-repeat:repeat-x;*/
+	text-align: left;
+}
+
+/* Table cells and heads*/
+table.sale_order_full th, table.sale_order_full td
+{
+	border:1px solid #CCCCCC;
+	padding: 3px 5px;
+	vertical-align:top;
+}
+
+table.sale_order_full_table
+{
+	width:100%;
+	background-color:#FFFFFF;
+	border-collapse:collapse;
+	font-size:12px;
+	border:1px solid #CCCCCC;
+}
+
+/* Table cells and heads*/
+table.sale_order_full_table td
+{
+	padding: 3px 5px;
+	vertical-align:top;
+}
+
+.sof-req{color:red;}
+.sof-ok{color:green; font-weight:bold;}
+
+table.register_form input[type=text],
+table.register_form input[type=password] {
+    width: 94%;
+    padding: 0 3%;
+    height: 25px;
+    border: 1px solid #fff;
+    background: #F6F6F6;
+    border-radius: 0 5px 0 5px;
+    box-shadow: inset 1px 2px 2px #aeaeae;
+}
+table.register_form input[type=text].error,
+table.register_form input[type=password].error {
+    border-color: #AB0000;
+}
+.form__checkbox_container {
+    display: inline-block;
+    width: 5%;
+    vertical-align: top;
+}
+.form__rules_container {
+    display: inline-block;
+    width: 90%;
+    color: #444;
+    line-height: 1.3em;
+    font-size: .9em;
+}
+
+.errortext {
+    color: red;
+}
+.order-after-content__head{
+    display: flex;
+    align-items: center;
+    background-color: #e4f3e7;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.order-after-content__head-ico{
+    margin-right: 20px;
+    display: flex;
+}
+.order-after-content__head p{
+    line-height: 1;
+    margin: 0;
+}
+.order-after-content__head #order_status_title{
+    margin-bottom: 15px;
+    color: #232833!important;
+}
+.order-after-content__head p.desc b{
+    font-weight: normal!important;
+    color: #de2d42!important;
+}
+.pickup-img{
+    position: relative;
+    right: -100px;
+}
+.order-after-content__body p{
+    font-size: 16px!important;
+    line-height: 1.4!important;
+    color: #232833!important;
+    font-weight: 400!important;
+}
+.order-after-content {
+    width: 56%!important;
+}
+p.pickup-info-pay{
+    font-size: 15px;
+    color: rgb(158, 158, 158)!important;
+    font-weight: 300!important;
+}
+.info__text.hide{
+    display: none;
+}
+.red{
+    color: #de2d42;
+}
+
+.no_pay {
+    display: none;
+}
+
+.pay_text a{
+    font-weight: bold;
+    font-size: 18px !important;
+    text-decoration: underline !important;
+}
+
+.no_pay_text {
+    background-color: #edbbc2
+}
+
+.pay_text {
+    line-height: 28px !important;
+}
+.order-after-content-block .order-after-content{
+    display: flex;
+    align-items: flex-start;
+}
+.checkout-categories-item-bottom .checkout-categories-item-bottom__btn.checkout-categories-item-bottom__btn-green {
+    background-color: #5ab55e;
+}
+.checkout-acception label span {
+    cursor: text;
+}
+
+.pay_description{
+    display: none;
+}
+
+@media (min-width: 1120px) {
+    .pay_description{
+        font-size: 10px;
+        /* display: inline; */
+        position: absolute;
+        left: 250px;
+        top: 200px;
+    }
+}
+
+.checkout-show-toggle{
+    display: none;
+    margin-left: auto;
+}
+.checkout-show-toggle:hover{
+    text-decoration: underline;
+}
+@media (max-width: 720px) {
+    .checkout-show-toggle:hover{
+        text-decoration: none;
+    }
+}
+
+.checkout-show .js-checkout-head .check-ok,
+.checkout-categories-item-head-bottom,
+.checkout-categories-item.complete .checkout-categories-item-bottom,
+.checkout-categories-item.complete .how_proceed{
+    display: none!important;
+}
+.checkout-categories-item.complete:not(.closed) .checkout-categories-item-head-bottom{
+    display: flex!important;
+}
+.checkout-categories-item.complete .checkout-show-toggle{
+    display: block!important;
+}
+.checkout-show .item-card__buttons .item-card__btn,
+.checkout-show .checkout-show-toggle.checkout-show-toggle_down{
+    display: none!important;
+}
+.js-checkout-category.is-admin.complete .far.check-ok{
+    margin-left: 10px;
+}
+.checkout-show .js-checkout-head{
+    background-color: #f6f6f6!important;
+}
+
+.order-select option[disabled]{
+    display: none;
+}
+
+.cashback.order-cashback {
+    top: 5px;
+    padding: 4px;
+    max-width: 80px;
+    left: 0;
+}
+
+.cashback.order-cashback .cashback-left p {
+    font-size: 12px;
+}
